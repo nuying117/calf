@@ -1,1 +1,1 @@
-Calf is a library which allows "dynamic class creation" in C++, simply, one could create an instance with a given type in string, generally, this helps to make factory pattern more convenient and elegant.
+Calf is a library which allows "dynamic class creation" in C++, simply, one could create an instance with a given type in string, generally, this can be used with factory pattern and make it more convenient and elegant.
