@@ -61,7 +61,7 @@ int main()
 ```
 A nicer way is to create a ShapeFactory for instanciation. so the ShapeFactory.hpp would be
 ```
-#include "Calr.hpp"
+#include "Calf.hpp"
 #include "Shape.hpp"
 class ShapeFactory
 {
@@ -87,4 +87,4 @@ int main()
     return 0;
 }
 ```
-See, nice, right? :D
+See, nice? :D
