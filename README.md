@@ -1,7 +1,7 @@
-#Calf
-##Brief
+# Calf
+## Brief
 Calf is a library which allows "dynamic class creation" in C++, simply, one could create an instance with a given type in string, generally, this can be used with factory pattern and make it more convenient and elegant.
-##Examples
+## Examples
 
 Let's use the classic Shape example, say, I've a Shape base class defining the supported interfaces of each concrete shape class
 the source file layout is
