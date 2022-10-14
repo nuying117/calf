@@ -8,4 +8,5 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 
 aux_source_directory(src SRCS)
 add_library(${PROJECT_NAME} SHARED ${SRCS})
+add_library(${PROJECT_NAME}Static STATIC ${SRCS})
 
