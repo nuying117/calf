@@ -1,4 +1,4 @@
-#include "Calf.hpp"
+#include <calf/Calf.hpp>
 
 namespace calf {
 
