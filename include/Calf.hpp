@@ -4,18 +4,16 @@
 #include <string>
 
 #define CALF_CLASS(name) \
-    do { \
         class name; \
         class name##_register \
         { \
         public: \
             name##_register() \
             { \
-                calf::Calf::registerClass( #name, CalfCreator<name>); \
+                calf::Calf::registerClass( #name, calf::classCreator<name>); \
             } \
         }; \
-        name##_register name##_register_obj; \
-    } while(0)
+        name##_register name##_register_obj
 
 namespace calf {
 

@@ -66,4 +66,7 @@ private:
     static FunctionTable_t _creatorTable;
 };
 
+template <class KEY_TYPE>
+typename Base<KEY_TYPE>::FunctionTable_t Base<KEY_TYPE>::_creatorTable;
+
 }

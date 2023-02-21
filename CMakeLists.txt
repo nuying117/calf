@@ -17,5 +17,5 @@ configure_file(./resources/${PROJECT_NAME}.pc.in ${PROJECT_NAME}.pc @ONLY)
 
 install(TARGETS ${PROJECT_NAME} ${PROJECT_NAME}Static
         LIBRARY DESTINATION lib)
-install(DIRECTORY ${PROJECT_SOURCE_DIR}/include DESTINATION include/${PROJECT_NAME})
+install(FILES ${LIB_HEADER_FILES} DESTINATION include/${PROJECT_NAME})
 install(FILES ${PROJECT_BINARY_DIR}/${PROJECT_NAME}.pc DESTINATION lib/pkgconfig)
